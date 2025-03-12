@@ -1,0 +1,13 @@
+t1=()
+print(t1)
+mytub = (1, 1, 3, 4, 7, 8, 8, 9)
+print(mytub)
+for i in mytub:
+    print(i)
+mytub2 = (1, "hello", "nice", "good", 2, 3, 4)
+print(mytub2)
+print("acessing the first value", mytub[0])
+print("performing slicing", mytub2[0:5])
+tup = (1,3,"hello", ("apple",7))
+print(tup)
+print("acessing the value from nested tuple", tup[3][0])
